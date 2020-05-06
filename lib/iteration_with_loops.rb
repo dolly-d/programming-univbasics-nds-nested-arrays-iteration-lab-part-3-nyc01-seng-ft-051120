@@ -8,9 +8,10 @@ def join_nested_strings(src)
    # src[count].is_a? (String) 
     # if src[count].is_a? (String)
     while count < src[row_index][count].length do
-      src[row_index][0]
+      if src[row_index][0].is_a?(String)
+        messageof_strings.push(String)  
+      end
       
-      messageof_strings.push(String)
       count+= 1
   
     end
