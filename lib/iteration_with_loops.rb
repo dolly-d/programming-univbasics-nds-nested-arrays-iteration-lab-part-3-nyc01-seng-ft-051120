@@ -12,8 +12,8 @@ def join_nested_strings(src)
         message_of_strings.push(src[row_index][count])  
       end
       count+= 1
-  
     end
-    return message_of_strings
+    row_index+=1
   end
+  return message_of_strings
 end
