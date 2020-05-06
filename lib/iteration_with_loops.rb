@@ -8,7 +8,7 @@ def join_nested_strings(src)
    # src[count].is_a? (String) 
     # if src[count].is_a? (String)
     while count < src[row_index][count].length do
-      if src[row_index][1].is_a?(String)
+      if src[row_index][2].is_a?(String)
         message_of_strings.push(src[row_index][0])  
       end
       
