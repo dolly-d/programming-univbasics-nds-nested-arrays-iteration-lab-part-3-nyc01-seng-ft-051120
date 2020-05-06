@@ -8,7 +8,7 @@ def join_nested_strings(src)
    # src[count].is_a? (String) 
     # if src[count].is_a? (String)
     while src[count].is_a? (String) do
-      src[0][2] = 'The'
+      src[2][0] = 'The'
       messageof_strings.push(String)
       count+= 1
   
