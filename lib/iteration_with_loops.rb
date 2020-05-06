@@ -16,4 +16,3 @@ def join_nested_strings(src)
     return message_of_strings
   end
 end
-  
